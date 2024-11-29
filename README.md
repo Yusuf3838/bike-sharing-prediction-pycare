@@ -22,5 +22,33 @@ Tree-Based Models Dominate: Random Forest and Gradient Boosting consistently eme
 Feature Engineering is Crucial: The quality and relevance of the features significantly impact model performance. Careful feature engineering, including creating new features and selecting the most relevant ones, is essential for achieving optimal results. Metric Selection Matters: Different performance metrics can lead to different conclusions when comparing models. Choosing a suitable metric that aligns with the goals of the prediction task is crucial. In these studies, metrics like R-squared, RMSE, and MAE were frequently used.
 
 Relating to My Notebook:
-My findings using XGBoost as the best model align well with the literature. XGBoost, similar to Random Forest and Gradient Boosting, is a tree-based ensemble method known for its ability to handle complex data and achieve high prediction accuracy.These papers reinforce the value of using PyCaret for tasks like bike-sharing demand prediction. By streamlining model comparison and evaluation, PyCaret enables you to quickly identify top-performing algorithms and build effective prediction models. I hope this review of relevant literature provides you with valuable insights and context for your findings. Let me know if you have any other questions.
+My findings using XGBoost as the best model align well with the literature. XGBoost, similar to Random Forest and Gradient Boosting, is a tree-based ensemble method known for its ability to handle complex data and achieve high prediction accuracy.These papers reinforce the value of using PyCaret for tasks like bike-sharing demand prediction. By streamlining model comparison and evaluation, PyCaret enables you to quickly identify top-performing algorithms and build effective prediction models. 
+
+Attributes Used for Estimation:
+Here's a breakdown of the features used and their types:
+Numerical Features:
+hr: numerical - Hour of the day 
+temp: numerical - Normalized temperature in Celsius.
+atemp: numerical - Normalized feeling temperature in Celsius.
+hum: numerical - Normalized humidity.
+windspeed: numerical - Normalized wind speed.
+Categorical Features:
+season: categorical - Season (1:spring, 2:summer, 3:fall, 4:winter)
+yr: categorical - Year (0: 2011, 1: 2012)
+mnth: categorical - Month (1 to 12)
+holiday: categorical - Whether the day is considered a holiday (0 or 1)
+weekday: categorical - Day of the week (0 to 6)
+workingday: categorical - If day is neither weekend nor holiday is 1, otherwise is 0.
+weathersit: categorical - (1: Clear, Few clouds, Partly cloudy, Partly cloudy, 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist, 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds, 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog)
+Dropped Columns and Reasons:
+I dropped the following columns in my data preprocessing step:
+instant: This column is simply a record index and does not provide any predictive information about bike rentals, making it irrelevant for the task.
+dteday: This column represents the date. While it might seem relevant, you already have separate features for year (yr), month (mnth), holiday (holiday), and weekday (weekday), which capture the date-related information more effectively. Therefore, dteday becomes redundant.
+casual: and registered: These columns represent the number of casual and registered users, respectively. While they are directly related to the total count (cnt), they are leakage features in this particular task of predicting the total rental count. If used, it would have given the model the value that is in fact a breakdown of the outcome, leading to overestimation and misleading performance.
+Rationale for Feature Selection and Dropping:
+Relevance: The selected features are likely to have a direct or indirect influence on bike rental demand.
+Redundancy: Features like dteday were removed to avoid redundancy and potential multicollinearity issues.
+Leakage: Dropping casual and registered prevents the model from learning patterns that wouldn't be available in a real-world prediction scenario, where you only have the total count (cnt) to predict.
+By carefully selecting and preprocessing my features, I aim to build a robust and generalizable model that accurately predicts bike rental demand.
+
 
