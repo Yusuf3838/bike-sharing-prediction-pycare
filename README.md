@@ -15,6 +15,8 @@ After cleaning the dataset by dropping irrelevant columns, the CatBoost Regresso
 
 This project showcases the utility of PyCaret in identifying top-performing models for predictive tasks.
 
+Dataset: https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset
+
 ---
 
 ## Key Findings from Literature
