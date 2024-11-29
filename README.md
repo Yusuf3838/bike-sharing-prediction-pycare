@@ -94,6 +94,7 @@ The results of my notebook align closely with findings in the literature:
 - Clone the repository: git clone https://github.com/Yusuf3838/bike-sharing-prediction-pycare.git
 - Install dependencies: pip install -r requirements.txt
 - Open and run the notebook: Use Jupyter or Google Colab to run the included notebook for detailed analysis.
+- Run using Docker (optional): docker build -t bike-sharing-prediction 
 ---
 
 ## Conclusion
