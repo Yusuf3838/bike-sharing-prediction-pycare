@@ -70,6 +70,26 @@ The results of my notebook align closely with findings in the literature:
 - `casual` and `registered`: Leakage features for this task.
 
 ---
+### ***Graphs***
+
+![image](https://github.com/user-attachments/assets/c4922334-135e-437e-a660-055f76cfff48)
+
+![image](https://github.com/user-attachments/assets/a6b4ed8b-9918-4e93-b200-3d851cb68230)
+
+![image](https://github.com/user-attachments/assets/6ecfe6fd-d05d-4c7d-bd6c-c174e74290f8)
+
+![image](https://github.com/user-attachments/assets/f65873c2-275c-4e8b-aaa6-ca61a433148a)
+
+![image](https://github.com/user-attachments/assets/33568644-37ff-4c4d-b6db-71157b8215a6)
+
+![image](https://github.com/user-attachments/assets/bfb9857f-23c7-4ca7-a151-ecacb553e6e2)
+
+![image](https://github.com/user-attachments/assets/c908ac88-61af-4274-a3c8-d71d1721a568)
+
+![image](https://github.com/user-attachments/assets/d8693025-39d3-45c3-b0b0-4e0c062ea819)
+
+
+---
 ### ***How To Use This Repository***
 - Clone the repository: git clone https://github.com/Yusuf3838/bike-sharing-prediction-pycare.git
 - Install dependencies: pip install -r requirements.txt
