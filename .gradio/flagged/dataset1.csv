@@ -1,0 +1,2 @@
+season,yr,mnth,hr,holiday,weekday,workingday,weathersit,temp,atemp,hum,windspeed,output,timestamp
+2,3,4,6,5,8,6,5,3,2,4,8,"{'season': '2', 'yr': '3', 'mnth': '4', 'hr': '6', 'holiday': '5', 'weekday': '8', 'workingday': '6', 'weathersit': '5', 'temp': '3', 'atemp': '2', 'hum': '4', 'windspeed': '8', 'prediction_label': 27.40197367881285}",2024-11-29 15:53:35.403942
