@@ -72,22 +72,17 @@ The results of my notebook align closely with findings in the literature:
 ---
 ### ***Graphs***
 
-![image](https://github.com/user-attachments/assets/c4922334-135e-437e-a660-055f76cfff48)
+<img width="789" alt="1" src="https://github.com/user-attachments/assets/1ecdf7ee-b7cb-41b8-a81e-60ab3f0791c9">
 
-![image](https://github.com/user-attachments/assets/a6b4ed8b-9918-4e93-b200-3d851cb68230)
+<img width="763" alt="2" src="https://github.com/user-attachments/assets/2b6ae3e5-f65f-457d-afd3-eb673328e2b4">
 
-![image](https://github.com/user-attachments/assets/6ecfe6fd-d05d-4c7d-bd6c-c174e74290f8)
+<img width="740" alt="3" src="https://github.com/user-attachments/assets/403ecb4b-5e89-462f-afd7-4393dd37cf1c">
 
-![image](https://github.com/user-attachments/assets/f65873c2-275c-4e8b-aaa6-ca61a433148a)
+<img width="533" alt="4" src="https://github.com/user-attachments/assets/0beaa9bd-ef0f-4ee1-864c-67cc98f0eda0">
 
-![image](https://github.com/user-attachments/assets/33568644-37ff-4c4d-b6db-71157b8215a6)
+<img width="814" alt="5" src="https://github.com/user-attachments/assets/dbc03d22-27f8-4a32-9324-59aa40240989">
 
-![image](https://github.com/user-attachments/assets/bfb9857f-23c7-4ca7-a151-ecacb553e6e2)
-
-![image](https://github.com/user-attachments/assets/c908ac88-61af-4274-a3c8-d71d1721a568)
-
-![image](https://github.com/user-attachments/assets/d8693025-39d3-45c3-b0b0-4e0c062ea819)
-
+<img width="1563" alt="6" src="https://github.com/user-attachments/assets/8808e6e7-2d2d-4079-86d0-844066acfe32">
 
 ---
 ### ***How To Use This Repository***
